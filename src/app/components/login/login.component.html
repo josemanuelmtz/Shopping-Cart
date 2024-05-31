@@ -1,0 +1,12 @@
+<form [formGroup]="loginForm">
+    <p-card header="Ingresar al sistema" [style]="{width: '360px'}">
+        <div class="field">
+            <label for="email">Correo Electrónico</label>
+            <input type="text" pInputText formControlName="email" class="w-full" name="email" placeholder="Teclea tu Correo Electrónico"/>
+        </div>
+        <div class="field">
+            <label for="password">Contraseña</label>
+            <input type="text" pInputText formControlName="password" class="w-full" name="password" placeholder="Teclea tu Contraseña"/>
+        </div>
+    </p-card>
+</form>
